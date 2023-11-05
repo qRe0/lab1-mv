@@ -7,8 +7,10 @@ import (
 	"time"
 )
 
-const N = 5
-const detCalc = 15540.0
+const (
+	N       = 5
+	detCalc = 15540.0
+)
 
 func solveWithGauss(A [][]float64, b []float64) []float64 {
 	x := make([]float64, N)
